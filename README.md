@@ -1,6 +1,6 @@
 # Date Calculator
 
-[![Build Status](https://travis-ci.org/juliuscarvajal/datecalculator.svg?branch=master)](https://travis-ci.org/juliuscarvajal/datecalculator)
+[![Build Status](https://travis-ci.org/juliuscarvajal/datecalculator-dv.svg?branch=master)](https://travis-ci.org/juliuscarvajal/datecalculator-dv)
 
 Calculates the full days elapsed between 2 dates. The first and the last dates are not counted.
 
