@@ -47,6 +47,10 @@ const fullDays = (startDate, endDate) => {
   if (start === null || end === null) {
     return -1;
   }
+
+  if (start === end) {
+    return 0;
+  }
   
   // swap start and end if end is bigger than the start
   if (start > end) {

@@ -14,6 +14,13 @@ test('should return 0 if the difference between the dates is only 1 day', t => {
   t.is(fullDays('7/11/1972', '8/11/1972'), 0);
   t.is(fullDays('07/11/1972', '08/11/1972'), 0);
   t.is(fullDays('31/12/2015', '01/01/2016'), 0);    
+  t.is(fullDays('31/12/2015', '31/12/2015'), 0);    
+});
+
+test('should return 0 if start and end dates are the same', t => {
+  t.is(fullDays('31/12/2015', '31/12/2015'), 0);   
+  t.is(fullDays('01/01/1901', '01/01/1901'), 0);
+  t.is(fullDays('31/12/2999', '31/12/2999'), 0);
 });
 
 test('should return -1 if there are any invalid dates.', t => {
